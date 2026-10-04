@@ -1,0 +1,6 @@
+{
+  "name": "L'AURA Atelier - Nến Thơm Nghệ Thuật & Thủ Công",
+  "description": "Cửa hàng thương mại điện tử chuyên nến thơm cao cấp, sáp đậu nành tự nhiên, bấc gỗ và hương thơm trị liệu tinh tế.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
