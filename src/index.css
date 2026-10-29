@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+    color: #2D2825;
+    background-color: #FBF9F5;
+    letter-spacing: -0.015em;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+  }
+
+  h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.015em;
+    line-height: 1.35;
+  }
+
+  .font-serif-luxury {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    letter-spacing: -0.012em;
+  }
+
+  button, input, select, textarea {
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  .tracking-luxury-tight {
+    letter-spacing: -0.025em;
+  }
+
+  .tracking-luxury-subtle {
+    letter-spacing: -0.015em;
+  }
+
+  .tracking-luxury-body {
+    letter-spacing: -0.012em;
+  }
+}
+
+/* Custom scrollbar for clean boutique feeling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFEB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D7CBC1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8A89A;
+}
